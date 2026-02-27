@@ -1,0 +1,60 @@
+/* ===== Navigation Styles ===== */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* ===== Tables ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* ===== Forms ===== */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* ===== Images ===== */
+img {
+    max-width: 100%;
+    height: auto;
+}
