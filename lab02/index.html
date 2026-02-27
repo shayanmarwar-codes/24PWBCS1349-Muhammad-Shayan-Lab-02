@@ -4,13 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 2 Landing Page</title>
+    <style>
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 5px 10px;
+            color: black;
+            font-weight: bold;
+        }
+        nav a.active {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
 
     <!-- Navigation Menu -->
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="profile.html">Profile</a></li>
             <li><a href="schedule.html">Courses</a></li>
             <li><a href="registration.html">Registration</a></li>
@@ -18,12 +37,8 @@
         </ul>
     </nav>
 
-    <!-- Landing Page Content -->
     <h1>Welcome to Lab 2 - Web Technologies</h1>
     <p>This is the landing page for Lab 2 exercises. Navigate to different pages using the menu above.</p>
-
-    <!-- Your Name -->
-    <p><strong>Student: Muhammad Shayan</strong></p>
 
 </body>
 </html>
